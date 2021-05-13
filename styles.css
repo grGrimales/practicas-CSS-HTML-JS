@@ -33,7 +33,7 @@ body {
   border-radius: 2px 2px 5px 5px;
   padding: 10px 20px 20px 20px;
   width: 90%;
-  max-width: 320px;
+  max-width: 420px;
   background: #ffffff;
   position: relative;
   padding-bottom: 80px;
@@ -65,7 +65,12 @@ input {
   padding-left: 30px;
 }
 
-.fa {
+label{
+  color: #2196f3;
+}
+
+.fa,
+.far {
   color: #2196f3;
   font-size: 1em;
   margin-top: -41px;
@@ -137,3 +142,4 @@ button:hover {
 button:focus {
   border-bottom-width: 4px;
 }
+
